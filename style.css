@@ -1,0 +1,280 @@
+body {
+    background-color: #444;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #dcdcdc;
+}
+
+.container {
+    width: 100%;
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_left {
+    margin-left: 150px;
+}
+
+.header_img {
+    height: 400px;
+}
+
+.header_title {
+    font-size: 120px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header_subtitle {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+
+/*proton*/
+
+.proton {
+    margin-top: 30px;
+}
+
+.proton_intro {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    border-top: 1.5px solid #94CCA0;
+    border-bottom: 1.5px solid #94CCA0;
+}
+
+.proton_item {
+    text-align: center;
+    margin-right: 250px;
+}
+
+.proton_item:last-child {
+    margin-right: 0;
+}
+
+.pink {
+    color: rgb(217, 158, 172);
+}
+
+.green {
+    color: rgb(148, 204, 160);
+}
+
+.yellow {
+    color: rgb(208, 206, 126);
+}
+
+.proton_item_text {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.proton_item_num {
+    font-size: 102px;
+    font-weight: 700;
+}
+
+/*features*/
+
+.features_intro {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.features_left {
+    margin-right: 300px;
+}
+
+.features_right {
+    text-align: center;
+}
+
+.features_item {
+    margin-bottom: 50px;
+}
+
+.features_item_title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.features_item_text {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.features_image {
+    height: 260px;
+    margin-bottom: 20px;
+}
+
+.features_bottom_item {
+    border-bottom: 1.5px solid #dcdcdc;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.features_bottom_item2 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.features_bottom {
+    text-align: center;
+}
+
+.features_bottom_subitem {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/*message*/
+
+.message {
+    margin-bottom: 100px;
+}
+
+.message_text {
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*media*/
+
+@media(max-width: 1050px) {
+    .header {
+        display: block;
+    }
+
+    .header_left {
+        margin-left: 0px; 
+        text-align: center;
+    }
+
+    .header_right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .proton_item {
+        margin-right: 150px;
+    }
+}
+
+@media(max-width: 950px) {
+    .container {
+        padding: 0;
+    }
+
+    .features_left {
+        margin-right: 200px;
+    }
+
+    .header_img {
+        height: 350px;
+    }
+
+    .features_left {
+        margin-right: 90px;
+    }
+
+    .features_image {
+        height: 200px;
+    }
+
+    .features_item_title, .features_item_text {
+        font-size: 20px;
+    }
+
+    .features_bottom_item, .features_bottom_item2 {
+        font-size: 16px;
+    }
+
+    .features_bottom_subitem {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .message_text {
+        font-size: 17px;
+    }
+
+}
+
+@media(max-width: 730px) {
+    .header_img {
+        height: 300px;
+    }
+
+    .proton_intro {
+        display: block;
+    }
+
+    .proton_item {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 645px) {
+    .header_img {
+        height: 250px;
+    }
+
+    .features_intro {
+        display: block;
+    }
+
+    .features_left {
+        text-align: center;
+        margin-bottom: 65px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    .header_img {
+        height: 230px;
+    }
+
+    .message_text {
+        margin-left: 15px;
+    }
+
+    .title {
+        font-size: 30px;
+        margin-bottom: 45px;
+    }
+
+    .proton_intro {
+        padding: 15px 0;
+    }
+
+    .features_right {
+        margin-bottom: 50px;
+    }
+}
